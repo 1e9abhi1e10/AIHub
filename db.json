@@ -1,9 +1,112 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "users": [
+        {
+            "id": 1,
+            "title": "codellama-13b-oasst-sft-v10",
+            "type": "Advanced Text Generation",
+            "image": "/1.jpeg",
+            "provider": "Hugging Face",
+            "codeSnippet": "from transformers import AutoTokenizer",
+            "description": "A text generation model designed for various text generation"
+        },
+        {
+            "id": 2,
+            "title": "mlwizard-345-gpt3",
+            "type": "General Purpose AI",
+            "image": "/2.jpeg",
+            "provider": "ML Wizard",
+            "codeSnippet": "import openai",
+            "description": "A powerful GPT-3 model for diverse AI tasks"
+        },
+        {
+            "id": 3,
+            "title": "deeplearnpro-xyz-ner-v2",
+            "type": "Natural Language Processing",
+            "image": "/3.jpeg",
+            "provider": "DeepLearnPro",
+            "codeSnippet": "from spacy.lang.en import English",
+            "description": "Named Entity Recognition model for extracting entities from text"
+        },
+        {
+            "id": 4,
+            "title": "aienthusiast-semantic-seg",
+            "type": "Computer Vision",
+            "image": "/4.jpeg",
+            "provider": "AI Enthusiast",
+            "codeSnippet": "import torch",
+            "description": "Semantic Segmentation model for image analysis"
+        },
+        {
+            "id": 5,
+            "title": "datawhiz-tabular-forecast",
+            "type": "Data Science",
+            "image": "/5.jpeg",
+            "provider": "Data Whiz",
+            "codeSnippet": "import pandas as pd",
+            "description": "Tabular data forecasting model for time-series analysis"
+        },
+        {
+            "id": 6,
+            "title": "roboticspro-rl-agent-v3",
+            "type": "Robotics",
+            "image": "/6.jpeg",
+            "provider": "Robotics Pro",
+            "codeSnippet": "import gym",
+            "description": "Reinforcement Learning agent for robotic applications"
+        },
+        {
+            "id": 7,
+            "title": "healthtech-medical-imaging-v1",
+            "type": "Healthcare",
+            "image": "/7.jpeg",
+            "provider": "HealthTech",
+            "codeSnippet": "import tensorflow as tf",
+            "description": "Medical Imaging model for diagnostic purposes"
+        },
+        {
+            "id": 8,
+            "title": "fintech-analytics-risk-v2",
+            "type": "Finance",
+            "image": "/8.jpeg",
+            "provider": "FinTech Analytics",
+            "codeSnippet": "import numpy as np",
+            "description": "Risk analytics model for financial applications"
+        },
+        {
+            "id": 9,
+            "title": "climateaware-climate-model-v1",
+            "type": "Environmental Science",
+            "image": "/9.jpeg",
+            "provider": "ClimateAware",
+            "codeSnippet": "from sklearn.ensemble import RandomForestRegressor",
+            "description": "Climate modeling for environmental predictions"
+        },
+        {
+            "id": 10,
+            "title": "gamegenius-ai-game-designer",
+            "type": "Gaming",
+            "image": "/10.jpeg",
+            "provider": "GameGenius",
+            "codeSnippet": "import pygame",
+            "description": "AI-driven game designer for creating interactive games"
+        },
+        {
+            "id": 11,
+            "title": "cybersec-guardian-threat-detect",
+            "type": "Cybersecurity",
+            "image": "/11.jpeg",
+            "provider": "CyberSec Guardian",
+            "codeSnippet": "import scikit-learn",
+            "description": "Threat detection model for cybersecurity applications"
+        },
+        {
+            "id": 12,
+            "title": "autonomousauto-self-driving-v3",
+            "type": "Autonomous Vehicles",
+            "image": "/12.jpeg",
+            "provider": "Autonomous Auto",
+            "codeSnippet": "from keras.models import Sequential",
+            "description": "Self-driving car model for autonomous vehicle navigation"
+        }
+    ]
 }

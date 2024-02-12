@@ -4,9 +4,16 @@
   "description": "Deploy JSON Server to Vercel",
   "main": "api/server.js",
   "scripts": {
-    "start": "node api/server.js"
+    "start": "concurrently \"node api/server.js\" \"cd modelhub && npm run dev\" "
   },
   "dependencies": {
-    "json-server": "^0.17.4"
+    "json-server": "^0.17.4",
+    "react-router-dom": "^6.22.0",
+    "react-spinners": "^0.13.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "concurrently": "^8.2.2",
+    "vite": "^5.0.12"
   }
 }
